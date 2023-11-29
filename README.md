@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# ATSInsightPro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ATSInsightPro Logo](images/ATSInsightPro_Logo.png)
 
-## Available Scripts
+Revolutionize your resume crafting with ATSInsightPro, our cutting-edge React app. This application seamlessly integrates the OpenAI API and Chakra UI to provide essential keywords, ensuring your resume sails through Applicant Tracking Systems (ATS) for guaranteed visibility and success.
 
-In the project directory, you can run:
+# ATSInsightPro
 
-### `npm start`
+![ATSInsightPro Logo](images/ATSInsightPro_Logo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Revolutionize your resume crafting with ATSInsightPro, our cutting-edge React app. This application seamlessly integrates the OpenAI API and Chakra UI to provide essential keywords, ensuring your resume sails through Applicant Tracking Systems (ATS) for guaranteed visibility and success.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ATSInsightPro simplifies the resume crafting process with the following key features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Intuitive Interface:** When started on `localhost:3000`, users can enter the job description in the text area.
+  
+- **AI-Powered Keyword Extraction:** Clicking on the "Extract Keyword" button sends the entered text, along with an inbuilt prompt, to the OpenAI AI model (`text-davinci-002`).
+  
+- **Keyword Presentation:** The API returns keywords separated by commas, presented in a modal created using Chakra UI.
+  
+- **Resume Optimization:** Users can effortlessly incorporate the extracted keywords into their resumes, increasing the likelihood of passing through ATS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Frontend: ReactJS 
+- UI Framework: Chakra UI
+- API: OpenAI API
+- AI Model: text-davinci-002
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Fork the Repo:** Start by forking the ATSInsightPro repository to your GitHub account.
 
-## Learn More
+2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/ATSInsightPro.git
+   cd ATSInsightPro
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Add OpenAI API Key:**
+   Obtain your OpenAI API key and add it to line 25 in `App.js`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```javascript
+   Authorization : `Bearer ${'Add your openAI API key'}`
+   ```
 
-### Code Splitting
+4. **Save Changes:**
+   Save your changes in `App.js`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. **Run the App:**
+   Open the terminal and run the following commands:
+   ```bash
+   npm install
+   npm start
+   ```
+   The app will start on `localhost:3000`.
 
-### Analyzing the Bundle Size
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+We value your feedback! If you have any suggestions or encounter issues, please don't hesitate to reach out to the maintainer.
 
-### Making a Progressive Web App
+Maintainer: [Sumit Kumar Jha](https://linkedin.com/in/sumitkumarjha-)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Your input helps us improve ATSInsightPro and make it even more powerful for crafting effective resumes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Thank You](images/thank_you.gif)
