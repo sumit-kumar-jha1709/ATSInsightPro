@@ -66,7 +66,9 @@ Maintainer: [Sumit Kumar Jha](https://linkedin.com/in/sumitkumarjha-)
 Your input helps us improve ATSInsightPro and make it even more powerful for crafting effective resumes.
 
 ---
-
+<div align="center">
+  
 ![thank-you-5367_256](https://github.com/sumit-kumar-jha1709/ATSInsightPro/assets/88476958/c6600d6c-720d-4659-9288-995e1a7042d8)
+</div>
 
   
