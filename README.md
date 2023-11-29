@@ -1,7 +1,7 @@
-### ATSInsightPro
+# ATSInsightPro
 
 
-[](https://github.com/sumit-kumar-jha1709/ATSInsightPro/assets/88476958/a55ef856-09e4-47a7-95c6-facb7f2d2e0a)
+
 
 Revolutionize your resume crafting with ATSInsightPro, our cutting-edge React app. This application seamlessly integrates the OpenAI API and Chakra UI to provide essential keywords, ensuring your resume sails through Applicant Tracking Systems (ATS) for guaranteed visibility and success.
 
@@ -66,4 +66,5 @@ Your input helps us improve ATSInsightPro and make it even more powerful for cra
 
 ---
 
-[](https://github.com/sumit-kumar-jha1709/ATSInsightPro/assets/88476958/05b7caeb-6701-4f1c-baa5-c9b73f90244f)
+![thank-you-5367_256](https://github.com/sumit-kumar-jha1709/ATSInsightPro/assets/88476958/c6600d6c-720d-4659-9288-995e1a7042d8)
+
