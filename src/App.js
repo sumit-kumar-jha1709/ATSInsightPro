@@ -22,7 +22,7 @@ function App() {
         'Content-Type' : 'application/json',
         "Access-Control-Allow-Origin" : "*", 
         "Access-Control-Allow-Credentials" : true ,
-        Authorization : `Bearer ${process.env.REACT_APP_API_KEY}`
+        Authorization : `Bearer ${'Add your openAI API key'}`
       },
       body:JSON.stringify({
         model: 'text-davinci-003',
@@ -33,7 +33,7 @@ function App() {
       })
     }
 
-    const response = await fetch(process.env.REACT_APP_API_URL, options);
+    const response = await fetch('https://api.openai.com/v1/completions', options);
 
     const json = await response.json();
     const data = json.choices[0].text.trim();
